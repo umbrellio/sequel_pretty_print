@@ -1,5 +1,5 @@
 ## Installation
-Just add `sequel_pretty_print` to your Gemfile.
+Just add `gem "sequel_pretty_print"` to your Gemfile.
 
 ## Usage
 
