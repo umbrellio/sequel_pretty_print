@@ -26,3 +26,5 @@ Artist.new(name: "Elvis")
 ```
 
 For unsaved model instances, all column values are rendered. For retrieved instances, only the ones that were selected are shown. If there are some extra values (that are not represented in model columns) they are rendered after column values.
+
+The display format is borrowed from ActiveRecord because I like it.
