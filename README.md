@@ -24,3 +24,5 @@ Artist.new
 Artist.new(name: "Elvis")
 # => #<Artist:0x00007f8d1b413ef8 id: nil, name: "Elvis">
 ```
+
+For unsaved model instances, all column values are rendered. For retrieved instances, only the ones that were selected are shown. If there are some extra values (that are not represented in model columns) they are rendered after column values.
