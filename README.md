@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tycooon/sequel_pretty_print.svg?branch=master)](https://travis-ci.org/tycooon/sequel_pretty_print)
+
 ## Installation
 Just add `gem "sequel_pretty_print"` to your Gemfile.
 
