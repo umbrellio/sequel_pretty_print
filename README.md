@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tycooon/sequel_pretty_print.svg?branch=master)](https://travis-ci.org/tycooon/sequel_pretty_print)
+# sequel_pretty_print   [![Gem Version](https://badge.fury.io/rb/sequel_pretty_print.svg)](https://badge.fury.io/rb/sequel_pretty_print) [![Build Status](https://travis-ci.org/umbrellio/sequel_pretty_print.svg?branch=master)](https://travis-ci.org/umbrellio/sequel_pretty_print) [![Coverage Status](https://coveralls.io/repos/github/umbrellio/sequel_pretty_print/badge.svg?branch=master)](https://coveralls.io/github/umbrellio/sequel_pretty_print?branch=master)
 
 ## Installation
 Just add `gem "sequel_pretty_print"` to your Gemfile.
