@@ -36,4 +36,18 @@ RSpec.describe "pretty_print plugin" do
         .to match(/^#<Artist:\S+ name: "Freddy", lastname: "Mercury">$/)
     end
   end
+
+  describe "model with custom inspect method defined" do
+    before do
+      def instance.inspect
+        "FOO"
+      end
+    end
+
+    let(:instance) { Artist.new }
+
+    specify do
+      expect(instance.pretty_inspect).to eq("FOO\n")
+    end
+  end
 end

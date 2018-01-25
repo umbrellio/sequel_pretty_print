@@ -4,7 +4,7 @@ module Sequel::Plugins::PrettyPrint
   module InstanceMethods
     # Mimics the ActiveRecord's implementation
     def pretty_print(pp)
-      if self.class.instance_method(:inspect).owner != Sequel::Model.instance_method(:inspect).owner
+      if method(:inspect).owner != Sequel::Model.instance_method(:inspect).owner
         return super
       end
 
