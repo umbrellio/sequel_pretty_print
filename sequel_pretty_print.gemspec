@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "PrettyPrint support for Sequel models."
   spec.description   = "This gem provides PrettyPrint support for Sequel models."
-  spec.homepage      = "https://github.com/tycooon/sequel_pretty_print"
+  spec.homepage      = "https://github.com/umbrellio/sequel_pretty_print"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
