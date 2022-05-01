@@ -4,10 +4,12 @@ lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
+  spec.required_ruby_version = ">= 2.7.0"
+
   spec.name          = "sequel_pretty_print"
   spec.version       = "0.2"
   spec.authors       = ["Yuri Smirnov"]
-  spec.email         = ["tycooon@yandex.ru"]
+  spec.email         = ["tycoooon@gmail.com"]
 
   spec.summary       = "PrettyPrint support for Sequel models."
   spec.description   = "This gem provides PrettyPrint support for Sequel models."
@@ -22,11 +24,12 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler"
-  spec.add_development_dependency "coveralls"
   spec.add_development_dependency "pry"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rubocop-config-umbrellio"
+  spec.add_development_dependency "simplecov"
+  spec.add_development_dependency "simplecov-lcov"
   spec.add_development_dependency "sqlite3"
 
   spec.add_runtime_dependency "sequel"
